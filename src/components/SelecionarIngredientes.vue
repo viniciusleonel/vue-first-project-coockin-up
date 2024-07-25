@@ -3,6 +3,7 @@
 <script lang="ts">
 import { obterCategoria } from '@/http';
 import type ICategoria from '@/interfaces/ICategoria';
+import CardCategoria from '@/components/CardCategoria.vue';
 
 // Exporta o componente SelecionarIngredientes
 export default {
@@ -17,6 +18,9 @@ export default {
         // Atribui as categorias obtidas pela função obterCategoria ao array categorias
         this.categorias = await obterCategoria()
     },
+    components: {
+        CardCategoria
+    }
 }
 </script>
 
@@ -31,8 +35,8 @@ export default {
 
     <ul class="categorias">
         <li v-for="categoria in categorias" :key="categoria.nome">
-            {{ categoria.nome }}
-        </li>
+            <CardCategoria :categoria="categoria"/>
+        </li> 
     </ul>
     <p class="paragrafo dica">
         *Atenção: consideramos que você tem em casa sal, pimenta e água.
