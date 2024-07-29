@@ -81,8 +81,9 @@ export default {
 }
 
 .dica {
-    align-self: flex-start;
+    align-self: flex-center;
     margin-bottom: 3.5rem;
+    color: var(--ocre)
 }
 
 @media only screen and (max-width: 767px) {
