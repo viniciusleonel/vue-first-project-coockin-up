@@ -31,4 +31,8 @@
     background: var(--coral, #F0633C);
     font-weight: 700;
 }
+
+.tag:hover{
+    background-color: var(--coral);
+}
 </style>

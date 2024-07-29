@@ -4,7 +4,14 @@ export default {}
 
 <template>
     <footer class="rodape paragrafo">
-        Desenvolvido por Alura | 2023 - Projeto fictício sem fins comerciais.
+        Desenvolvido por 
+            <a 
+                class="link "
+                target="_blank"
+                href="https://www.linkedin.com/in/viniciuslps/"
+                > Vinicius Leonel 
+            </a> 
+            | 2024 - Projeto fictício sem fins comerciais.
     </footer>
 
 </template>
@@ -16,6 +23,16 @@ export default {}
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--creme);
+    padding: 0 5px;
+}
+
+.link:hover {
+    color: var( --coral);
 }
 
 @media only screen and (max-width: 1300px) {
