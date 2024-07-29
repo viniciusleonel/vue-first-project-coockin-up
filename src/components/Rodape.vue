@@ -10,8 +10,7 @@ export default {}
                 target="_blank"
                 href="https://www.linkedin.com/in/viniciuslps/"
                 > Vinicius Leonel 
-            </a> 
-            | 2024 - Projeto fictício sem fins comerciais.
+            </a>- Projeto fictício sem fins comerciais.
     </footer>
 
 </template>
@@ -46,4 +45,5 @@ export default {}
         padding: 1.5rem;
     }
 }
+
 </style>

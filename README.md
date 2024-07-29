@@ -1,40 +1,37 @@
-# vue-first-project-coockin-up
+# Cookin' Up!
 
-This template should help get you started developing with Vue 3 in Vite.
+## Descrição do Projeto
 
-## Recommended IDE Setup
+Cookin' Up é uma aplicação web desenvolvida com Vue 3 e Vite, que permite aos usuários explorar e selecionar receitas com base nos ingredientes que possuem em casa. O objetivo é facilitar a descoberta de novas receitas, promovendo a criatividade na cozinha.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Funcionalidades
 
-## Type Support for `.vue` Imports in TS
+- **Seleção de Ingredientes**: Os usuários podem escolher os ingredientes que têm disponíveis e a aplicação sugere receitas que podem ser feitas com esses ingredientes.
+- **Exibição de Receitas**: As receitas são apresentadas com detalhes, incluindo nome e imagem, permitindo que os usuários visualizem as opções disponíveis.
+- **Interface Responsiva**: A aplicação é projetada para ser responsiva, garantindo uma boa experiência em dispositivos móveis e desktops.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Tecnologias Utilizadas
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+- **Vue 3**: Framework JavaScript para construção de interfaces de usuário.
+- **Vite**: Ferramenta de construção que oferece um ambiente de desenvolvimento rápido e eficiente.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática, melhorando a manutenção do código.
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## Como Executar o Projeto
 
-## Customize configuration
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/cookin-up.git
+   cd cookin-up
+   ```
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+2. Instale as dependências:
+   ```sh
+   npm install
+   ```
 
-## Project Setup
+3. Inicie o servidor de desenvolvimento:
+   ```sh
+   npm run dev
+   ```
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+4. Acesse a aplicação em `http://localhost:5173`.
