@@ -8,7 +8,7 @@
 </script>
 
 <template>
-    <span class="tag" :class="{ ativa: ativa }">
+    <span :class="['tag', { ativa: ativa }]" >
         {{ texto }}
     </span>
 </template>
